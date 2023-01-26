@@ -1,0 +1,22 @@
+{
+  "@context": "https://www.w3.org/ns/did/v1",
+  "id": "did:web:ohtaketaishi.github.io",
+  "verificationMethod": [
+    {
+      "id": "did:web:ohtaketaishi.github.io#key1",
+      "type": "EcdsaSecp256k1VerificationKey2019",
+      "controller": "did:web:ohtaketaishi.github.io#key1",
+      "publicKeyJwk": {
+        "kty": "OKP",
+        "x": "SZcrHlnvGAWFACrEeAmt9m81LC3y6rWWGObqW9t97vA",
+        "crv": "Ed25519"
+      }
+    }
+  ],
+  "authentication": [
+    "did:web:ohtaketaishi.github.io#key1"
+  ],
+  "assertionMethod": [
+    "did:web:ohtaketaishi.github.io#key1"
+  ]
+}
